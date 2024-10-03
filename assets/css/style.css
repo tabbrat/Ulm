@@ -1,0 +1,218 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    width: 1440px;
+    line-height: 1.7;
+    background-color: #a6a374;
+}
+
+header {
+    background: url('/assets/images/isto.jpg') no-repeat center center/cover;
+    height: 119px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.5);
+    height: 122px;
+    align-items: center;
+    border-radius: 84px 84px 0 0;
+}
+
+
+
+li{
+    border-radius: 11px;
+    background-color: #3c4d85;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6px 10px 6px 10px;
+    animation: fadeIn 5s ease-in-out; 
+
+    &:hover {
+        border: solid 2px #ff1904b0;
+        border-radius: 10px;
+        transform: scale(1.1);
+        
+      }
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+main{
+display: flex;
+align-items: center;
+flex-direction: column;
+margin:auto;
+}
+
+.cta-button {
+    background-color: #07133f;
+    color: white;
+    margin: 5px 0px 5px 0;
+    padding: 1px 30px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.cta-button:hover {
+    background-color: #3617cf;
+    color: #000000;
+}
+
+h1, h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.submit {
+    width: 60px;
+    height: 30px;
+}
+
+
+
+.caracteristiques{
+    color: black;
+}
+
+.desc {
+    margin: 18px;
+}
+
+li.l1, li.l2, li.l3 {
+    color: #f4f4f4;
+    background-color: #000000;
+    padding-top: 0%;
+}
+
+p { 
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column; 
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #2a2a19;
+    width: 100%;
+    bottom: 0;
+}
+
+footer>p {
+color: white;
+word-spacing: 0.159rem;
+}
+
+img {
+    width: 51%;
+}
+
+.intro {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#ulm-info-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content-box {
+    width: 850px; /* Largeur du cadre principal */
+    padding: 20px;
+    border: 2px solid #ccc; /* Bordure du cadre */
+    border-radius: 10px; /* Coins arrondis */
+    background-color: #f9f9f9; /* Couleur de fond */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour un effet visuel */
+}
+
+aside {
+    width: 200px; /* Largeur des aside */
+    padding: 20px;
+    background-color: #eee; /* Couleur de fond des asides */
+    border: 1px solid #ccc; /* Bordure pour les asides */
+    border-radius: 10px; /* Coins arrondis pour les asides */
+    margin: 0 20px; /* Espacement entre le cadre principal et les asides */
+}
+
+.left-aside {
+    margin-right: 20px; /* Espacement entre le cadre principal et l'aside gauche */
+}
+
+.right-aside {
+    margin-left: 20px; /* Espacement entre le cadre principal et l'aside droite */
+}
+
+#ulm-info-container .content-box, 
+#ulm-info-container .left-aside, 
+#ulm-info-container .right-aside {
+    flex-shrink: 0; /* Empêche les éléments de rétrécir */
+}
+
+/* aside gauche */
+
+.federation-item {
+    margin-bottom: 20px; /* Espacement entre chaque fédération */
+    text-align: center;
+}
+
+.federation-item img {
+    width: 100px; /* Taille des images */
+    height: auto;
+    margin-bottom: 10px; /* Espacement sous les images */
+    border-radius: 10px; /* Coins arrondis pour les images */
+}
+
+.federation-item h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.federation-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.class {
+    margin-left: -17px;
+}
+.class1 {
+    width: 780px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: cursive;
+    animation: fadeIn 1s ease-in-out;
+    border: 2px solid #000000 !important;
+}
